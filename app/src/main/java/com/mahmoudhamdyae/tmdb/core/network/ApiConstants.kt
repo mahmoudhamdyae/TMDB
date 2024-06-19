@@ -6,7 +6,7 @@ object ApiConstants {
 
     // Movies
     const val GET_NOW_PLAYING_MOVIES_PATH = "$BASE_URL/movie/now_playing?api_key=$API_KEY"
-    const val GET_POPULAR_MOVIES_PATH = "$BASE_URL/movie/popular2?api_key=$API_KEY"
+    const val GET_POPULAR_MOVIES_PATH = "$BASE_URL/movie/popular?api_key=$API_KEY"
     const val GET_TOP_RATED_MOVIES_PATH = "$BASE_URL/movie/top_rated?api_key=$API_KEY"
     fun getMovieDetailsPath(movieId: Int) = "$BASE_URL/movie/$movieId?api_key=$API_KEY"
     fun searchMovie(query: String) = "$BASE_URL/search/movie?api_key=$API_KEY"
